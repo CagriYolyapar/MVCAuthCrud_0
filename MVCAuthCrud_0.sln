@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAuthCrud_0", "MVCAuthCrud_0\MVCAuthCrud_0.csproj", "{CD40A9E0-340E-4881-B110-D65B7BC6A437}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD40A9E0-340E-4881-B110-D65B7BC6A437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD40A9E0-340E-4881-B110-D65B7BC6A437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD40A9E0-340E-4881-B110-D65B7BC6A437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD40A9E0-340E-4881-B110-D65B7BC6A437}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {277FE919-ED01-47E3-9A25-D85AB8E6473F}
+	EndGlobalSection
+EndGlobal

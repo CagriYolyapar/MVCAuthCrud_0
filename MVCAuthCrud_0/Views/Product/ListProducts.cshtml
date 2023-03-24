@@ -1,0 +1,32 @@
+﻿@model ListProductPageVM
+
+
+@{
+    ViewBag.Title = "ListProducts";
+}
+
+<h1>Yeni ürün eklemek icin @Html.ActionLink("tıklayınız","AddProduct")</h1>
+
+<table class="table table-hover">
+    <tr>
+        <th>Id</th>
+        <th>Isim</th>
+        <th>Fiyat</th>
+        <th>Kategorisi</th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (ProductVM item in Model.Products)
+    {
+        <tr>
+            <th>@item.ID</th>
+            <th>@item.ProductName</th>
+            <th>@item.UnitPrice</th>
+            <th>@item.CategoryName</th>
+            <th>@Html.ActionLink("Güncelle", "UpdateProduct", new { id = item.ID }, new {@class="btn btn-warning"})</th>
+            <th>@Html.ActionLink("Sil", "DeleteProduct", new { id = item.ID }, new {@class="btn btn-danger"})</th>
+        </tr>
+    }
+</table>
+
